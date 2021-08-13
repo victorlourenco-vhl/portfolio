@@ -7,6 +7,24 @@
     padding: 0; /*Serve para as magens internas*/
 }
 
+.lines{
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;/*Serve para o elemento ficar na primeira camada*/
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.line{
+    width: 100%;
+    height: .1rem;
+    background-color: white;
+}
+
 header{
     width: 100%;
     height: 100vh; /*Serve para a imagem cobrir todo o campo de visão*/
